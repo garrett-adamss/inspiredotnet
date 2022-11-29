@@ -13,11 +13,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
-}
+.home{
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+  }
 </style>

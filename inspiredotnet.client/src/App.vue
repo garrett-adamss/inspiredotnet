@@ -1,6 +1,4 @@
 <template>
-  <header>
-  </header>
   <main>
     <router-view />
   </main>
@@ -42,6 +40,7 @@ a {
 a:hover {
   color: black;
 }
+
 .footer-text{
   position: relative;
   bottom: 8px;
